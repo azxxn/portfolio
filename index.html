@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Azaan | Web Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background-color: #1e1e1e;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #00aaff;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00aaff;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    .hero {
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .about {
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .about p {
+      color: #aaa;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    .project-card h3 {
+      color: #00aaff;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #00aaff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #008fcc;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e1e1e;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header, section {
+        padding: 20px;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muhammad Azaan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="./project.html">Projects</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Web Designer</h2>
+    <p>I build clean and responsive static websites using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Muhammad Azaan, a passionate web designer focused on creating visually appealing and responsive static websites. I love transforming ideas into elegant web interfaces using HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2 style="text-align:center; margin-bottom: 30px;">Projects</h2>
+    <div class="projects">
+      <!-- Project Card Example -->
+      <div class="project-card">
+        <h3>Project Title</h3>
+        <p>A short description of the project will go here.</p>
+        <a href="./project.html" class="btn" target="_blank">View projects</a>
+      </div>
+      <!-- More projects can be added here -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:m.azaan9502@gmail.com" style="color:#00aaff;">m.azaan9502@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/azxxn" style="color:#00aaff;" target="_blank">@azxxn</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Muhammad Azaan. All rights reserved.
+  </footer>
+
+</body>
+</html>

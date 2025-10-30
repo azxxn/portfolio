@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Muhammad Azaan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css" />
+
+</head>
+<body>
+
+  <header>
+    <h1>Muhammad Azaan</h1>
+    <nav>
+      <a href="index.html#about">About</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>If you have a project in mind, want to collaborate, or just say hello — feel free to reach out using the form below.</p>
+
+    <form action="mailto:m.azaan9502@gmail.com" method="POST" enctype="text/plain" style="max-width: 600px; margin: 30px auto 0;">
+      <div style="margin-bottom: 20px;">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-top: 5px; border: none; border-radius: 4px;">
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-top: 5px; border: none; border-radius: 4px;">
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 10px; margin-top: 5px; border: none; border-radius: 4px;"></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Muhammad Azaan. All rights reserved.
+  </footer>
+
+</body>
+</html>
